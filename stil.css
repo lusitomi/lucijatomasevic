@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+p {
+  color: blue;
+  font-family: Constantia, "Lucida Bright", "Dejavu Serif", Georgia, "serif";
+  font-size: 16px;
+  line-height: 20px;
+  width: 800px;
+  background-color: rgb(168, 231, 154);
+  padding: 10px;
+}
+
+body {
+  background-image: url("pozadina.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a:link {
+  color: black;
+  background-color: white;
+  padding: 5px;
+  line-height: 40px;
+  border:1px solid #000000;
+}
+a:hover {
+  background-color: darkgray;
+}
